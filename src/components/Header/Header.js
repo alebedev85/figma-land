@@ -7,15 +7,23 @@ function Header() {
   return (
     <header className='header'>
       <a className='link' href='#'>
-        <img src={logo} className='logo' alt='Логотип сайта' />
+        <img src={logo} className='header__logo' alt='Логотип сайта' />
       </a>
       <ul className='header__navbar'>
-        <li className='link'></li>
-        <li className='link'></li>
-        <li className='link'></li>
-        <li className='link'></li>
+        <li>
+        <a className='header__link link' href='#'>Home</a>
+        </li>
+        <li>
+        <a className='header__link link' href='#'>Product</a>
+        </li>
+        <li>
+        <a className='header__link link' href='#'>About</a>
+        </li>
+        <li>
+        <a className='header__link link' href='#'>Contact</a>
+        </li>
       </ul>
-      <button className='header__button button'></button>
+      <button className='header__button button'>Login</button>
     </header >
   )
 }
