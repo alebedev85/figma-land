@@ -24,7 +24,7 @@ function Header() {
         </li>
       </ul>
       <button className='header__button button'>
-        <p className='button__text'>Login</p>
+        <p className='header__button__text'>Login</p>
         </button>
     </header >
   )
