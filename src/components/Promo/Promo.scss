@@ -45,10 +45,14 @@
   }
 
   &__screens {
-    width: 1552.023px;
-    height: 841px;
+    max-width: 1552.023px;
+    max-height: 841px;
     object-fit: contain;
     position: relative;
+
+    @media screen and (max-width: 1552.023px) {
+      width: 100vw;
+    }
   }
 
   &__container {
@@ -61,7 +65,7 @@
       left: 0;
       position: absolute;
       content: '';
-      background: linear-gradient(rgba(0, 0, 0, 0.00), #0E0E0E );
+      background: linear-gradient(rgba(0, 0, 0, 0.00), #0E0E0E);
     }
   }
 }
