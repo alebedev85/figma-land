@@ -23,7 +23,9 @@ function Header() {
         <a className='header__link link' href='#'>Contact</a>
         </li>
       </ul>
-      <button className='header__button button'>Login</button>
+      <button className='header__button button'>
+        <p className='button__text'>Login</p>
+        </button>
     </header >
   )
 }
