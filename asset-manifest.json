@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.431089c8.css",
-    "main.js": "/static/js/main.1a1bc76a.js",
-    "static/media/GraphikRegular.otf": "/static/media/GraphikRegular.329746577f94a4f1785e.otf",
-    "index.html": "/index.html",
-    "main.431089c8.css.map": "/static/css/main.431089c8.css.map",
-    "main.1a1bc76a.js.map": "/static/js/main.1a1bc76a.js.map"
+    "main.css": "/alebedev85.github.io/figma-land/static/css/main.43cd90a0.css",
+    "main.js": "/alebedev85.github.io/figma-land/static/js/main.1a1bc76a.js",
+    "static/media/GraphikRegular.otf": "/alebedev85.github.io/figma-land/static/media/GraphikRegular.329746577f94a4f1785e.otf",
+    "index.html": "/alebedev85.github.io/figma-land/index.html",
+    "main.43cd90a0.css.map": "/alebedev85.github.io/figma-land/static/css/main.43cd90a0.css.map",
+    "main.1a1bc76a.js.map": "/alebedev85.github.io/figma-land/static/js/main.1a1bc76a.js.map"
   },
   "entrypoints": [
-    "static/css/main.431089c8.css",
+    "static/css/main.43cd90a0.css",
     "static/js/main.1a1bc76a.js"
   ]
 }
