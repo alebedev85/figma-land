@@ -17,7 +17,9 @@ function Promo() {
           <p className='promo__button__text'>Learn More</p>
         </button>
       </div>
-      <img className='promo__screens' src={screens} alt='Presentation of Screens' />
+      <div className='promo__container'>
+        <img className='promo__screens' src={screens} alt='Presentation of Screens' />
+      </div>
     </section >
   )
 }
