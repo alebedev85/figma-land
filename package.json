@@ -1,7 +1,7 @@
 {
   "name": "figma-land",
   "version": "0.1.0",
-  "homepage": "alebedev85.github.io/figma-land/",
+  "homepage": "https://alebedev85.github.io/figma-land/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
