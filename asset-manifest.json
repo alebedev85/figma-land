@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/figma-land/static/css/main.edd3534a.css",
-    "main.js": "/figma-land/static/js/main.ec5a0f71.js",
-    "static/media/screens.png": "/figma-land/static/media/screens.d78292708c13e0721ecb.png",
+    "main.css": "/figma-land/static/css/main.417cc372.css",
+    "main.js": "/figma-land/static/js/main.4f0a3c3e.js",
+    "static/media/screens.svg": "/figma-land/static/media/screens.d792f792f6687f5f26bc3efa9d2d721c.svg",
+    "static/media/Frame 19.svg": "/figma-land/static/media/Frame 19.4e2812bae85a220aa04bda64fad93e95.svg",
+    "static/media/logo.svg": "/figma-land/static/media/logo.114ccc414f330a0ecc3951421c97e5d6.svg",
+    "static/media/feature_icon_1.svg": "/figma-land/static/media/feature_icon_1.aa11bd460f52b668ebc7d6a9c18b064b.svg",
+    "static/media/feature_icon_3.svg": "/figma-land/static/media/feature_icon_3.8dccd742881a5605729e8d92be98ec88.svg",
+    "static/media/feature_icon_2.svg": "/figma-land/static/media/feature_icon_2.817ec3e1af55ce39ef7dee20db3faffc.svg",
     "index.html": "/figma-land/index.html",
-    "main.edd3534a.css.map": "/figma-land/static/css/main.edd3534a.css.map",
-    "main.ec5a0f71.js.map": "/figma-land/static/js/main.ec5a0f71.js.map"
+    "main.417cc372.css.map": "/figma-land/static/css/main.417cc372.css.map",
+    "main.4f0a3c3e.js.map": "/figma-land/static/js/main.4f0a3c3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.edd3534a.css",
-    "static/js/main.ec5a0f71.js"
+    "static/css/main.417cc372.css",
+    "static/js/main.4f0a3c3e.js"
   ]
 }
