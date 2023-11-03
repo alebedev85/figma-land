@@ -15,7 +15,7 @@ function Features() {
       <img className='features__pic' src={Frame_19} alt='Сhat app screenshot' />
       <ul className='features__container'>
         <li className='feature'>
-          <img className='feature__icon_1' src={feature_icon_1} alt='spoon and knife' />
+          <img className='feature__icon_1 feature__icon' src={feature_icon_1} alt='spoon and knife' />
           <h3 className='feature__headline'>
             A single source of truth
           </h3>
@@ -24,17 +24,17 @@ function Features() {
           </p>
         </li>
         <li className='feature'>
-          <img className='feature__icon_2' src={feature_icon_2} alt='alien' />
-          <h3 className='feature__headline'>
+          <img className='feature__icon feature__icon_2' src={feature_icon_2} alt='alien' />
+          <h3 className='feature__headline feature__headline_intuitive'>
             Intuitive interface
           </h3>
           <p img className='feature__sub'>
             When you add work to your Slate calendar we automatically calculate useful insights
           </p>
         </li>
-        <li className='feature'>
-          <img className='feature__icon_3' src={feature_icon_3} alt='infinity' />
-          <h3 className='feature__headline'>
+        <li className='feature feature_up'>
+          <img className='feature__icon feature__icon_3' src={feature_icon_3} alt='infinity' />
+          <h3 className='feature__headline feature__headline_rules'>
             Or with rules
           </h3>
           <p img className='feature__sub'>
