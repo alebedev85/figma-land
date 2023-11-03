@@ -1,9 +1,9 @@
 import React from 'react';
 import './Features.scss';
-import Frame_19 from '../../images/Frame 19.png'
-import feature_icon_1 from '../../feature_icon_1.png'
-import feature_icon_2 from '../../feature_icon_2.png'
-import feature_icon_3 from '../../feature_icon_3.png'
+import Frame_19 from '../../images/Frame 19.svg'
+import feature_icon_1 from '../../images/feature_icon_1.svg'
+import feature_icon_2 from '../../images/feature_icon_2.svg'
+import feature_icon_3 from '../../images/feature_icon_3.svg'
 
 function Features() {
 
@@ -15,8 +15,8 @@ function Features() {
       <img className='features__pic' src={Frame_19} alt='Сhat app screenshot' />
       <ul className='features__container'>
         <li className='feature'>
+          <img className='feature__icon_1' src={feature_icon_1} alt='spoon and knife' />
           <h3 className='feature__headline'>
-            <img className='feature__icon' src={feature_icon_1} alt='spoon and knife picture' />
             A single source of truth
           </h3>
           <p img className='feature__sub'>
@@ -24,8 +24,8 @@ function Features() {
           </p>
         </li>
         <li className='feature'>
+          <img className='feature__icon_2' src={feature_icon_2} alt='alien' />
           <h3 className='feature__headline'>
-            <img className='feature__icon' src={feature_icon_2} alt='alien picture' />
             Intuitive interface
           </h3>
           <p img className='feature__sub'>
@@ -33,8 +33,8 @@ function Features() {
           </p>
         </li>
         <li className='feature'>
+          <img className='feature__icon_3' src={feature_icon_3} alt='infinity' />
           <h3 className='feature__headline'>
-            <img className='feature__icon' src={feature_icon_3} alt='infinity picture' />
             Or with rules
           </h3>
           <p img className='feature__sub'>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Promo.scss';
-import screens from '../../images/screens.png'
+import screens from '../../images/screens.svg'
 
 function Promo() {
 
