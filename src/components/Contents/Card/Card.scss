@@ -9,13 +9,13 @@
   align-items: center;
   padding: 40px 0;
   width: 476px;
-  height: 540px;
   color: #000;
 }
 
 .card__headline {
   margin: 0;
-  padding: 0;
+  margin-bottom: 10px;
+  padding: 10px;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -27,7 +27,7 @@
 
 .card__sub {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -35,10 +35,11 @@
   /* 150% */
   letter-spacing: 0.2px;
   text-align: center;
+  max-width: 288px;
 }
 
 .contents__button {
-  padding: 20px 36px;
+  padding: 14px 47px;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -49,4 +50,7 @@
   background-color: #4452FE;
 }
 
-.card_image {}
+.card__image {
+  margin: 0;
+  padding: 0;
+}

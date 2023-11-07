@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 .contents__headline {
@@ -11,10 +12,11 @@
 
 .contents__sub {
   max-width: 597px;
-  margin-bottom: 57px;
+  margin-bottom: 53px;
 }
 
 .contents__cards {
   display: flex;
   gap: 33px;
+  align-items: center;
 }

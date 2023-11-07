@@ -1,13 +1,15 @@
 import './Card.scss';
 
-function Card({headline, sub, button_text, img}) {
+function Card({headline, sub, button_text, img, gap}) {
 
   return (
-    <section className='card' aria-label='card'>
-      <h3 className='card__headline'>{headline}</h3>
+    <section className='card' aria-label='card' style={{ gap: gap}}>
+      <div className='card_text'>
+        <h3 className='card__headline'>{headline}</h3>
       <p className='card__sub'>{sub}</p>
+      </div>
       <button className='contents__button button'>{button_text}</button>
-      <img className='card_image' src={img}></img>
+      <img className='card__image' src={img}></img>
     </section >
   )
 }

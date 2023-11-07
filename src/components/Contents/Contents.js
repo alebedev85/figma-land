@@ -2,7 +2,7 @@ import React from 'react';
 import './Contents.scss';
 import Card from './Card/Card'
 import Macbook_Pro from '../../images/Macbook Pro.svg'
-import Boards_Notifications from '../../images/Boards Notifications.svg'
+import Boards_Notifications from '../../images/Boards Notifications1.png'
 
 function Contents() {
 
@@ -17,6 +17,7 @@ function Contents() {
             sub="Ever wondered if you're too reliant on a client for work? Slate helps you identify ."
             button_text='Sign Up'
             img={Macbook_Pro}
+            gap={57}
           />
         </li>
         <li>
@@ -25,6 +26,7 @@ function Contents() {
             sub="Ever wondered if you're too reliant on a client for work? Slate helps you identify ."
             button_text='Try For Free'
             img={Boards_Notifications}
+            gap={30}
           />
         </li>
       </ul>
