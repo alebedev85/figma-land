@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import Promo from '../Promo/Promo'
 import Features from '../Features/Features'
 import Contents from '../Contents/Contents'
+import Gallery from '../Gallery/Gallery'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Promo />
       <Features />
       <Contents />
+      <Gallery />
     </div>
   );
 }

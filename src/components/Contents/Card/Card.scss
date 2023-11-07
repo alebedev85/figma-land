@@ -10,47 +10,47 @@
   padding: 40px 0;
   width: 476px;
   color: #000;
-}
 
-.card__headline {
-  margin: 0;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px;
-  /* 150% */
-  letter-spacing: 0.1px;
-  text-align: center;
-}
+  &__headline {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: 0.1px;
+    text-align: center;
+  }
 
-.card__sub {
-  margin: 0;
-  padding: 10px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  /* 150% */
-  letter-spacing: 0.2px;
-  text-align: center;
-  max-width: 288px;
-}
+  &__sub {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.2px;
+    text-align: center;
+    max-width: 288px;
+  }
 
-.contents__button {
-  padding: 14px 47px;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 25px;
-  /* 147.059% */
-  letter-spacing: 0.2px;
-  color: #FFF;
-  background-color: #4452FE;
-}
+  &__button {
+    padding: 14px 47px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    /* 147.059% */
+    letter-spacing: 0.2px;
+    color: #FFF;
+    background-color: #4452FE;
+  }
 
-.card__image {
-  margin: 0;
-  padding: 0;
+  &__image {
+    margin: 0;
+    padding: 0;
+  }
 }

@@ -8,7 +8,7 @@ function Card({headline, sub, button_text, img, gap}) {
         <h3 className='card__headline'>{headline}</h3>
       <p className='card__sub'>{sub}</p>
       </div>
-      <button className='contents__button button'>{button_text}</button>
+      <button className='card__button button'>{button_text}</button>
       <img className='card__image' src={img}></img>
     </section >
   )

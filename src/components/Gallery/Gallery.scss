@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__headline {
+    padding: 10px;
+  }
+
+  &__sub {
+    padding: 10px;
+    padding-bottom: 51px;
+    width: 591px;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 33px;
+    row-gap: 44px;
+    justify-content: center;
+    width: 1087px;
+  }
+
+  &__imag {}
+
+}

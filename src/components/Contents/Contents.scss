@@ -3,20 +3,19 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 200px;
-}
 
-.contents__headline {
-  margin-bottom: 18px;
+  &__headline {
+    margin-bottom: 18px;
+  }
 
-}
+  &__sub {
+    max-width: 597px;
+    margin-bottom: 53px;
+  }
 
-.contents__sub {
-  max-width: 597px;
-  margin-bottom: 53px;
-}
-
-.contents__cards {
-  display: flex;
-  gap: 33px;
-  align-items: center;
+  &__cards {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+  }
 }
