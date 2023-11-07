@@ -9,8 +9,8 @@ function Features() {
 
   return (
     <section className='features' aria-label='Project features'>
-      <h2 className='features__headline'>FEATURES</h2>
-      <p className='features__sub'>Most calendars are designed for teams.
+      <h2 className='features__headline headline'>FEATURES</h2>
+      <p className='features__sub sub'>Most calendars are designed for teams.
         Slate is designed for freelancers who want a simple way to plan their schedule.</p>
       <img className='features__pic' src={Frame_19} alt='Сhat app screenshot' />
       <ul className='features__container'>
