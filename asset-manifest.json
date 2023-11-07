@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/figma-land/static/css/main.417cc372.css",
-    "main.js": "/figma-land/static/js/main.4f0a3c3e.js",
+    "main.css": "/figma-land/static/css/main.0a1ce339.css",
+    "main.js": "/figma-land/static/js/main.ef8d4e85.js",
     "static/media/screens.svg": "/figma-land/static/media/screens.d792f792f6687f5f26bc3efa9d2d721c.svg",
+    "static/media/Macbook Pro.svg": "/figma-land/static/media/Macbook Pro.3441f39f6e46d2173821a05534d2e9b6.svg",
     "static/media/Frame 19.svg": "/figma-land/static/media/Frame 19.4e2812bae85a220aa04bda64fad93e95.svg",
+    "static/media/Rectangle 5.png": "/figma-land/static/media/Rectangle 5.0de1ab5ba16cc543f35e.png",
+    "static/media/Rectangle 7.png": "/figma-land/static/media/Rectangle 7.67580649d06193abdbba.png",
+    "static/media/Rectangle 2.png": "/figma-land/static/media/Rectangle 2.4195624d5758a431b06b.png",
+    "static/media/Rectangle 3.png": "/figma-land/static/media/Rectangle 3.1015c8ed9b7522c3b143.png",
+    "static/media/Rectangle 4.png": "/figma-land/static/media/Rectangle 4.8257bbe49df1d0ff12cb.png",
+    "static/media/Rectangle 6.png": "/figma-land/static/media/Rectangle 6.4aef16ff9dc91e9e37c0.png",
+    "static/media/Boards Notifications1.png": "/figma-land/static/media/Boards Notifications1.a755cb65f21d2ba2f0fc.png",
+    "static/media/Rectangle 1.png": "/figma-land/static/media/Rectangle 1.73512fddb4e6c473b71b.png",
     "static/media/logo.svg": "/figma-land/static/media/logo.114ccc414f330a0ecc3951421c97e5d6.svg",
     "static/media/feature_icon_1.svg": "/figma-land/static/media/feature_icon_1.aa11bd460f52b668ebc7d6a9c18b064b.svg",
     "static/media/feature_icon_3.svg": "/figma-land/static/media/feature_icon_3.8dccd742881a5605729e8d92be98ec88.svg",
     "static/media/feature_icon_2.svg": "/figma-land/static/media/feature_icon_2.817ec3e1af55ce39ef7dee20db3faffc.svg",
     "index.html": "/figma-land/index.html",
-    "main.417cc372.css.map": "/figma-land/static/css/main.417cc372.css.map",
-    "main.4f0a3c3e.js.map": "/figma-land/static/js/main.4f0a3c3e.js.map"
+    "main.0a1ce339.css.map": "/figma-land/static/css/main.0a1ce339.css.map",
+    "main.ef8d4e85.js.map": "/figma-land/static/js/main.ef8d4e85.js.map"
   },
   "entrypoints": [
-    "static/css/main.417cc372.css",
-    "static/js/main.4f0a3c3e.js"
+    "static/css/main.0a1ce339.css",
+    "static/js/main.ef8d4e85.js"
   ]
 }
