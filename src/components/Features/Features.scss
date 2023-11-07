@@ -1,5 +1,5 @@
 .features {
-  
+
   margin-bottom: 224px;
   display: grid;
   grid-template-columns: 752px 336px;
@@ -28,14 +28,11 @@
   }
 
   &__container {
-    margin: 0;
     margin-top: 84px;
     margin-left: 47px;
-    padding: 0;
     grid-area: container;
     display: flex;
     flex-direction: column;
-    list-style-type: none;
     gap: 65px;
   }
 }

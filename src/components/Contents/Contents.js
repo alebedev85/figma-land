@@ -1,14 +1,33 @@
 import React from 'react';
 import './Contents.scss';
+import Card from './Card/Card'
+import Macbook_Pro from '../../images/Macbook Pro.svg'
+import Boards_Notifications from '../../images/Boards Notifications.svg'
 
 function Contents() {
 
   return (
     <section className='contents' aria-label='Contents'>
       <h2 className='contents__headline headline'>Contents</h2>
-      <p className='contents__sub sub'>Most calendars are designed for teams.
-      We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
-      <div className='contents__cards'></div>
+      <p className='contents__sub sub'> We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+      <ul className='contents__cards list'>
+        <li>
+          <Card
+            headline='Work'
+            sub="Ever wondered if you're too reliant on a client for work? Slate helps you identify ."
+            button_text='Sign Up'
+            img={Macbook_Pro}
+          />
+        </li>
+        <li>
+          <Card
+            headline='Design with real data'
+            sub="Ever wondered if you're too reliant on a client for work? Slate helps you identify ."
+            button_text='Try For Free'
+            img={Boards_Notifications}
+          />
+        </li>
+      </ul>
     </section >
   )
 }

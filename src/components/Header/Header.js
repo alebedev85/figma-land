@@ -1,4 +1,3 @@
-import React from 'react';
 import './Header.scss';
 import logo from '../../images/logo.svg'
 
@@ -9,7 +8,7 @@ function Header() {
       <a className='link' href='#'>
         <img src={logo} className='header__logo' alt='Логотип сайта' />
       </a>
-      <ul className='header__navbar'>
+      <ul className='header__navbar list'>
         <li>
         <a className='header__link link' href='#'>Home</a>
         </li>
