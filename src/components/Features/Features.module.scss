@@ -1,5 +1,4 @@
 .features {
-
   margin-bottom: 224px;
   display: grid;
   grid-template-columns: 752px 336px;
@@ -8,33 +7,33 @@
     "headline headline"
     "sub sub"
     "pic container";
+}
 
-  &__headline {
-    margin-bottom: 24px;
-    max-width: 251px;
-    grid-area: headline;
-  }
+.headline {
+  margin-bottom: 24px;
+  max-width: 251px;
+  grid-area: headline;
+}
 
-  &__sub {
-    margin-bottom: 81px;
-    max-width: 589px;
-    grid-area: sub;
-  }
+.sub {
+  margin-bottom: 81px;
+  max-width: 589px;
+  grid-area: sub;
+}
 
-  &__pic {
-    grid-area: pic;
-    width: 783px;
-    object-fit: contain;
-  }
+.pic {
+  grid-area: pic;
+  width: 783px;
+  object-fit: contain;
+}
 
-  &__container {
-    margin-top: 84px;
-    margin-left: 47px;
-    grid-area: container;
-    display: flex;
-    flex-direction: column;
-    gap: 65px;
-  }
+.list {
+  margin-top: 84px;
+  margin-left: 47px;
+  grid-area: container;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
 }
 
 .feature {
@@ -46,7 +45,7 @@
     "icon headline"
     "sub sub";
 
-  &_up{
+  &_up {
     margin-top: 4px;
   }
 
