@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 164px;
+  margin-bottom: 164px;}
 
-  &__headline {
+  .headline {
     margin: 0;
     margin-bottom: 16px;
     padding: 0;
@@ -16,7 +16,7 @@
     max-width: 709px;
   }
 
-  &__sub {
+  .sub {
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -26,7 +26,7 @@
     max-width: 589px;
   }
 
-  &__buttons {
+  .buttons {
     display: flex;
     gap: 35px;
     align-items: center;
@@ -34,18 +34,18 @@
     margin-bottom: 35px;
   }
 
-  &__button_try {
+  .button_try {
     background-color: #4452FE;
     width: 178px;
     height: 65px;
   }
 
-  &__button_learn {
+  .button_learn {
     width: 174px;
     height: 65px;
   }
 
-  &__screens {
+  .screens {
     max-width: 1552.023px;
     max-height: 841px;
     object-fit: contain;
@@ -57,7 +57,7 @@
     }
   }
 
-  &__container {
+  .container {
     position: relative;
 
     &::after {
@@ -70,4 +70,3 @@
       background: linear-gradient(rgba(0, 0, 0, 0.00), #0E0E0E);
     }
   }
-}
