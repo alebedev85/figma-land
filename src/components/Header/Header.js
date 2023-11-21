@@ -1,29 +1,29 @@
-import './Header.scss';
+import styles from'./Header.module.scss';
 import logo from '../../images/logo.svg'
 
 function Header() {
 
   return (
-    <header className='header'>
+    <header className={styles.header}>
       <a className='link' href='#'>
-        <img src={logo} className='header__logo' alt='Логотип сайта' />
+        <img src={logo} className={styles.logo} alt='Логотип сайта' />
       </a>
-      <ul className='header__navbar list'>
+      <ul className={`list ${styles.navbar}`}>
         <li>
-        <a className='header__link link' href='#'>Home</a>
+        <a className={`link ${styles.link}`} href='#'>Home</a>
         </li>
         <li>
-        <a className='header__link link' href='#'>Product</a>
+        <a className={`link ${styles.link}`} href='#'>Product</a>
         </li>
         <li>
-        <a className='header__link link' href='#'>About</a>
+        <a className={`link ${styles.link}`} href='#'>About</a>
         </li>
         <li>
-        <a className='header__link link' href='#'>Contact</a>
+        <a className={`link ${styles.link}`} href='#'>Contact</a>
         </li>
       </ul>
-      <button className='header__button button'>
-        <p className='header__button__text'>Login</p>
+      <button className={`button ${styles.button}`}>
+        <p className={styles.button__text}>Login</p>
         </button>
     </header >
   )

@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  width: 1097px;
+  min-height: 119px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 39px 21px 30px;
+  box-sizing: border-box;
+  margin-bottom: 92px;
+}
+
+.logo {
+  margin: 10px -47px 10px 10px;
+  width: 186px;
+  height: 58px;
+  object-fit: cover;
+}
+
+.navbar {
+  margin: 0;
+  margin-bottom: 3px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  margin-bottom: 3px;
+  width: 139px;
+  height: 52px;
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    padding-right: 1px;
+  }
+}
