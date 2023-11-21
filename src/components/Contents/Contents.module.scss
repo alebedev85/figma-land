@@ -1,0 +1,21 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.headline {
+  margin-bottom: 18px;
+}
+
+.sub {
+  max-width: 597px;
+  margin-bottom: 53px;
+}
+
+.cards {
+  display: flex;
+  gap: 33px;
+  align-items: center;
+}
