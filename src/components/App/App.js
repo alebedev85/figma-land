@@ -4,6 +4,7 @@ import Promo from '../Promo/Promo'
 import Features from '../Features/Features'
 import Contents from '../Contents/Contents'
 import Gallery from '../Gallery/Gallery'
+import Partners from '../Partners/Partners'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <Contents />
       <Gallery />
+      <Partners />
     </div>
   );
 }
