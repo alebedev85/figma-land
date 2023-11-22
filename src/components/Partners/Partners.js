@@ -8,7 +8,7 @@ import IBM from '../../images/logos_ibm.png'
 
 function Partners() {
   return (
-    <section className={styles.partners}>
+    <section className={styles.partners} aria-label='partners'>
       <h2 className={`${styles.headline} headline`}>Partners</h2>
       <p className={`${styles.sub} sub`}>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
       <div className={styles.brands}>
