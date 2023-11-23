@@ -1,4 +1,6 @@
-.testimonials {
+.section {
+  padding-top: 200px;
+  padding-bottom: 230px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,6 +9,7 @@
 .headline {
   box-sizing: border-box;
   padding: 10px;
+  margin-bottom: 50px;
   font-size: 52px;
   font-style: normal;
   font-weight: 400;
@@ -22,4 +25,17 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+
+.testimonials {
+  display: flex;
+  gap: 23px;
+  width: 883px;
+  height: 652px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

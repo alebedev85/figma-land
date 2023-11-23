@@ -8,17 +8,50 @@ import Testimonial from './Testimonial/Testimonial'
 
 function Testimonials() {
   return (
-    <section className={styles.testimonials} aria-label='testimonials'>
+    <section className={styles.section} aria-label='testimonials'>
       <h2 className={`${styles.headline} headline`}>Testimonials</h2>
-      <div className={styles.content}>
-        <Testimonial
-          icon={avatar_1}
-          name='Claire Bell'
-          occupation='Designer'
-          text='Slate helps you see how many more days you need to work to reach your
+      <div className={styles.testimonials}>
+        <div className={styles.column}>
+          <Testimonial
+            icon={avatar_1}
+            name='Claire Bell'
+            occupation='Designer'
+            text='Slate helps you see how many more days you need to work to reach your
           financial goal for the month and year. Slate helps you see how many more days
           you need to work to reach your financial goal for the month and year.your
           financial goal for the month and year.' />
+          <Testimonial
+            icon={avatar_3}
+            name='Ralph Fisher'
+            occupation='Designer'
+            text='Slate helps you see how many more days
+            you need to work to reach your financial
+            goal for the month and year. Slate helps
+            you see how many more days
+            you need to work to reach your financial
+            goal for the month and year.' />
+        </div>
+        <div className={styles.column}>
+          <Testimonial
+            icon={avatar_2}
+            name='Francisco Lane'
+            occupation='Designer'
+            text='Slate helps you see how many more days
+            you need to work to reach your financial
+            goal for the month and year. Slate helps
+            you see how many more days
+            you need to work to reach your financial
+            goal for the month and year.' />
+
+          <Testimonial
+            icon={avatar_4}
+            name='Jorge Murphy'
+            occupation='Designer'
+            text='Slate helps you see how many more days you need to work to reach your
+          financial goal for the month and year. Slate helps you see how many more days
+          you need to work to reach your financial goal for the month and year.' />
+        </div>
+
       </div>
     </section>
   )
