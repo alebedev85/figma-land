@@ -29,13 +29,10 @@
 
 .testimonials {
   display: flex;
-  gap: 23px;
-  width: 883px;
-  height: 652px;
-}
-
-.column{
-  display: flex;
   flex-direction: column;
-  gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 23px;
+  width: 883px;
+  height: 658px;
 }
