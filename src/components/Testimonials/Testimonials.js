@@ -11,7 +11,6 @@ function Testimonials() {
     <section className={styles.section} aria-label='testimonials'>
       <h2 className={`${styles.headline} headline`}>Testimonials</h2>
       <div className={styles.testimonials}>
-
         <Testimonial
           icon={avatar_1}
           name='Claire Bell'
@@ -20,7 +19,6 @@ function Testimonials() {
           financial goal for the month and year. Slate helps you see how many more days
           you need to work to reach your financial goal for the month and year.your
           financial goal for the month and year.' />
-
         <Testimonial
           icon={avatar_3}
           name='Ralph Fisher'
@@ -31,7 +29,6 @@ function Testimonials() {
             you see how many more days
             you need to work to reach your financial
             goal for the month and year.' />
-
         <Testimonial
           icon={avatar_2}
           name='Francisco Lane'
@@ -42,7 +39,6 @@ function Testimonials() {
             you see how many more days
             you need to work to reach your financial
             goal for the month and year.' />
-
         <Testimonial
           icon={avatar_4}
           name='Jorge Murphy'
@@ -51,8 +47,7 @@ function Testimonials() {
           financial goal for the month and year. Slate helps you see how many more days
           you need to work to reach your financial goal for the month and year.' />
       </div>
-
-
+      <ul className={`${styles.list} list`}><li></li></ul>
     </section>
   )
 }
