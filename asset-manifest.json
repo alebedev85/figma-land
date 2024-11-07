@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/figma-land/static/css/main.0a1ce339.css",
-    "main.js": "/figma-land/static/js/main.ef8d4e85.js",
+    "main.css": "/figma-land/static/css/main.fbad280b.css",
+    "main.js": "/figma-land/static/js/main.d808ecb5.js",
     "static/media/screens.svg": "/figma-land/static/media/screens.d792f792f6687f5f26bc3efa9d2d721c.svg",
     "static/media/Macbook Pro.svg": "/figma-land/static/media/Macbook Pro.3441f39f6e46d2173821a05534d2e9b6.svg",
     "static/media/Frame 19.svg": "/figma-land/static/media/Frame 19.4e2812bae85a220aa04bda64fad93e95.svg",
@@ -18,11 +18,11 @@
     "static/media/feature_icon_3.svg": "/figma-land/static/media/feature_icon_3.8dccd742881a5605729e8d92be98ec88.svg",
     "static/media/feature_icon_2.svg": "/figma-land/static/media/feature_icon_2.817ec3e1af55ce39ef7dee20db3faffc.svg",
     "index.html": "/figma-land/index.html",
-    "main.0a1ce339.css.map": "/figma-land/static/css/main.0a1ce339.css.map",
-    "main.ef8d4e85.js.map": "/figma-land/static/js/main.ef8d4e85.js.map"
+    "main.fbad280b.css.map": "/figma-land/static/css/main.fbad280b.css.map",
+    "main.d808ecb5.js.map": "/figma-land/static/js/main.d808ecb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a1ce339.css",
-    "static/js/main.ef8d4e85.js"
+    "static/css/main.fbad280b.css",
+    "static/js/main.d808ecb5.js"
   ]
 }
