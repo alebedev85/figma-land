@@ -10,13 +10,13 @@
 }
 
 .headline {
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
   max-width: 251px;
   grid-area: headline;
 }
 
 .sub {
-  margin-bottom: 81px;
+  margin-bottom: 81px !important;
   max-width: 589px;
   grid-area: sub;
 }
@@ -28,8 +28,8 @@
 }
 
 .list {
-  margin-top: 84px;
-  margin-left: 47px;
+  margin-top: 84px !important;
+  margin-left: 47px !important;
   grid-area: container;
   display: flex;
   flex-direction: column;

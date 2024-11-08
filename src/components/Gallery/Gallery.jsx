@@ -1,4 +1,3 @@
-import styles from './Gallery.module.scss';
 import Rectangle_1 from '../../images/Rectangle 1.png'
 import Rectangle_2 from '../../images/Rectangle 2.png'
 import Rectangle_3 from '../../images/Rectangle 3.png'
@@ -6,6 +5,9 @@ import Rectangle_4 from '../../images/Rectangle 4.png'
 import Rectangle_5 from '../../images/Rectangle 5.png'
 import Rectangle_6 from '../../images/Rectangle 6.png'
 import Rectangle_7 from '../../images/Rectangle 7.png'
+import Button from '../ui/Button/Button'
+
+import styles from './Gallery.module.scss';
 
 function Gallery() {
 
@@ -36,7 +38,7 @@ function Gallery() {
           <img className={styles.imag} alt='Rectangle_7' src={Rectangle_7}/>
         </li>
       </ul>
-      <button className={`${styles.button} button`}>See more</button>
+      <Button text='See more'/>
     </section >
   )
 }

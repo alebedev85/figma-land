@@ -1,10 +1,12 @@
-import styles from './Partners.module.scss';
 import Apple from '../../images/logos_apple-app-store.png'
 import Apiary from '../../images/logos_apiary.png'
 import Android from '../../images/logos_android-icon.png'
 import Basecamp from '../../images/logos_basecamp.png'
 import Airbnb from '../../images/logos_airbnb.png'
 import IBM from '../../images/logos_ibm.png'
+
+import styles from './Partners.module.scss';
+import Button from '../ui/Button/Button'
 
 function Partners() {
   return (
@@ -19,7 +21,7 @@ function Partners() {
         <img className={styles.brand_5} src={Airbnb} alt='Airbnb'/>
         <img className={styles.brand_6} src={IBM} alt='IBM'/>
       </div>
-      <button className={`${styles.button} button`}>All Partners</button>
+      <Button text='All Partners'/>
     </section>
   )
 }

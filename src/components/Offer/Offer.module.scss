@@ -1,0 +1,42 @@
+.offer {
+  display: flex;
+  max-width: 1216px;
+  height: 370px;
+  border-radius: 33px;
+  background: #343434;
+  overflow: hidden;
+}
+.info {
+  width: 50%;
+  padding: 24px 0 0 93px;
+  box-sizing: border-box;
+}
+.text {
+  margin: 56px 0 30px;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+  letter-spacing: 0.2px;
+}
+
+.poster {
+  width: 50%;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  padding: 14px 47px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  /* 147.059% */
+  letter-spacing: 0.2px;
+  color: #fff;
+  background-color: #4452fe;
+}

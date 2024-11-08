@@ -1,5 +1,7 @@
-import styles from './Promo.module.scss';
+import Button from '../ui/Button/Button';
 import screens from '../../images/screens.svg'
+
+import styles from './Promo.module.scss';
 
 function Promo() {
 
@@ -9,12 +11,8 @@ function Promo() {
       <p className={styles.sub}>Most calendars are designed for teams.
         Slate is designed for freelancers who want a simple way to plan their schedule.</p>
       <div className={styles.buttons}>
-        <button className={`button ${styles.button_try}`}>
-          <p className={styles.button__text}>Try For Free</p>
-        </button>
-        <button className={`button ${styles.button_learn}`}>
-          <p className={styles.button__text}>Learn More</p>
-        </button>
+        <Button variant='primary' text='Try For Free'/>
+        <Button  text='Learn More'/>
       </div>
       <div className={styles.container}>
         <img className={styles.screens} src={screens} alt='Presentation of Screens' />

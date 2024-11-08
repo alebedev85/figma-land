@@ -1,14 +1,15 @@
 import React from 'react';
-import styles from './Contents.module.scss';
 import Card from './Card/Card'
 import Macbook_Pro from '../../images/Macbook Pro.svg'
 import Boards_Notifications from '../../images/Boards Notifications1.png'
+
+import styles from './Contents.module.scss';
 
 function Contents() {
 
   return (
     <section className={styles.contents} aria-label='Contents'>
-      <h2 className={`${styles.headline} headline`}>Contents</h2>
+      <h2 className={`headline ${styles.headline}`}>Contents</h2>
       <p className={`${styles.sub} sub`}> We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
       <ul className={`${styles.cards} list`}>
         <li>
