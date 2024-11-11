@@ -7,7 +7,7 @@ export default function Button({ variant = "secondary", text = "" }) {
   return <button className={cn(styles.button, styles[variant])}>{text}</button>;
 }
 
-Button.propTypes = {
-  variant: "primary" | "secondary",
-  text: PropTypes.string,
-};
+// Button.propTypes = {
+//   variant: "primary" | "secondary",
+//   text: PropTypes.string,
+// };

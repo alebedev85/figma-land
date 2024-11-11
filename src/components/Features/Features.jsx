@@ -19,7 +19,7 @@ function Features() {
           <h3 className={styles.feature__headline}>
             A single source of truth
           </h3>
-          <p img className={styles.feature__sub}>
+          <p className={styles.feature__sub}>
             When you add work to your Slate calendar we automatically calculate useful insights
           </p>
         </li>
@@ -28,7 +28,7 @@ function Features() {
           <h3 className={`${styles.feature__headline} ${styles.headline_intuitive}`}>
             Intuitive interface
           </h3>
-          <p img className={styles.feature__sub}>
+          <p className={styles.feature__sub}>
             When you add work to your Slate calendar we automatically calculate useful insights
           </p>
         </li>
@@ -37,7 +37,7 @@ function Features() {
           <h3 className={`${styles.feature__headline} ${styles.feature__headline_rules}`}>
             Or with rules
           </h3>
-          <p img className={styles.feature__sub}>
+          <p className={styles.feature__sub}>
             When you add work to your Slate calendar we automatically calculate useful insights
           </p>
         </li>
