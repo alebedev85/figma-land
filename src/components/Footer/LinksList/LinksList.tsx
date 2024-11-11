@@ -2,7 +2,15 @@ import React from "react";
 
 import styles from "./LinksList.module.scss";
 
-export default function LinksList({ title, list }) {
+interface LinksListProps {
+  title: string;
+  list: {
+    name: string;
+    link: string;
+  }[];
+}
+
+export default function LinksList({ title, list }: LinksListProps) {
   return (
     <div className={styles.links}>
       <h2 className={styles.title}>{title}</h2>

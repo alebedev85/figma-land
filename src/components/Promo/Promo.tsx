@@ -12,7 +12,7 @@ function Promo() {
         Slate is designed for freelancers who want a simple way to plan their schedule.</p>
       <div className={styles.buttons}>
         <Button variant='primary' text='Try For Free'/>
-        <Button  text='Learn More'/>
+        <Button text='Learn More'/>
       </div>
       <div className={styles.container}>
         <img className={styles.screens} src={screens} alt='Presentation of Screens' />
