@@ -13,6 +13,9 @@
   padding: 10px !important;
   padding-bottom: 51px !important;
   width: 591px;
+  @media screen and (max-width: 788px) {
+    max-width: 363px;
+  }
 }
 
 .cards {
@@ -23,10 +26,21 @@
   justify-content: center;
   width: 1087px;
   margin-bottom: 33px !important;
+
+  @media screen and (max-width: 1146px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+  }
 }
 
 .imag {
   border-radius: 12px;
+  @media screen and (max-width: 1146px) {
+    width: 329px;
+    height: 285px;
+    object-fit: cover;
+  }
 }
 
 .button {
