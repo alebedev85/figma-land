@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (max-width: 550px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 .headline {
@@ -22,6 +26,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  @media screen and (max-width: 788px) {
+    max-width: 330px;
+  }
 }
 
 .brands {
@@ -29,6 +36,8 @@
   display: flex;
   gap: 74px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .brand {

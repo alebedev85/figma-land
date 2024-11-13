@@ -18,10 +18,10 @@ function App() {
       <Features />
       <Contents />
       <Gallery />
-      {/* <Partners /> */}
-      {/* <Testimonials /> */}
-      {/* <Offer /> */}
-      {/* <Footer /> */}
+      <Partners />
+      <Testimonials />
+      <Offer />
+      <Footer />
     </div>
   );
 }

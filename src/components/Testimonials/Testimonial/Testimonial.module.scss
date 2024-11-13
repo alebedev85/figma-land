@@ -5,6 +5,10 @@
   width: 430px;
   box-sizing: border-box;
   flex-shrink: 3;
+
+  @media screen and (max-width: 550px) {
+    width: 64vw;
+  }
 }
 
 .info {
