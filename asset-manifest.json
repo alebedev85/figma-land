@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/figma-land/static/css/main.fbad280b.css",
-    "main.js": "/figma-land/static/js/main.d808ecb5.js",
+    "main.css": "/figma-land/static/css/main.fb6a3e0e.css",
+    "main.js": "/figma-land/static/js/main.e4e4a478.js",
     "static/media/screens.svg": "/figma-land/static/media/screens.d792f792f6687f5f26bc3efa9d2d721c.svg",
     "static/media/Macbook Pro.svg": "/figma-land/static/media/Macbook Pro.3441f39f6e46d2173821a05534d2e9b6.svg",
     "static/media/Frame 19.svg": "/figma-land/static/media/Frame 19.4e2812bae85a220aa04bda64fad93e95.svg",
@@ -9,20 +9,27 @@
     "static/media/Rectangle 7.png": "/figma-land/static/media/Rectangle 7.67580649d06193abdbba.png",
     "static/media/Rectangle 2.png": "/figma-land/static/media/Rectangle 2.4195624d5758a431b06b.png",
     "static/media/Rectangle 3.png": "/figma-land/static/media/Rectangle 3.1015c8ed9b7522c3b143.png",
+    "static/media/Line Chart 1.png": "/figma-land/static/media/Line Chart 1.c86508ccff6b67a7bfb7.png",
     "static/media/Rectangle 4.png": "/figma-land/static/media/Rectangle 4.8257bbe49df1d0ff12cb.png",
     "static/media/Rectangle 6.png": "/figma-land/static/media/Rectangle 6.4aef16ff9dc91e9e37c0.png",
     "static/media/Boards Notifications1.png": "/figma-land/static/media/Boards Notifications1.a755cb65f21d2ba2f0fc.png",
     "static/media/Rectangle 1.png": "/figma-land/static/media/Rectangle 1.73512fddb4e6c473b71b.png",
     "static/media/logo.svg": "/figma-land/static/media/logo.114ccc414f330a0ecc3951421c97e5d6.svg",
+    "static/media/twitter-outlined.svg": "/figma-land/static/media/twitter-outlined.d88e524c400abc48406ea42d4c315880.svg",
+    "static/media/linkedin-filled.svg": "/figma-land/static/media/linkedin-filled.6502f022b30989ddc16194000b59a5f2.svg",
     "static/media/feature_icon_1.svg": "/figma-land/static/media/feature_icon_1.aa11bd460f52b668ebc7d6a9c18b064b.svg",
     "static/media/feature_icon_3.svg": "/figma-land/static/media/feature_icon_3.8dccd742881a5605729e8d92be98ec88.svg",
+    "static/media/bx_bx-map.svg": "/figma-land/static/media/bx_bx-map.3eb0eecee3d807b4d2757595de4011b0.svg",
     "static/media/feature_icon_2.svg": "/figma-land/static/media/feature_icon_2.817ec3e1af55ce39ef7dee20db3faffc.svg",
     "index.html": "/figma-land/index.html",
-    "main.fbad280b.css.map": "/figma-land/static/css/main.fbad280b.css.map",
-    "main.d808ecb5.js.map": "/figma-land/static/js/main.d808ecb5.js.map"
+    "static/media/facebook-filled.svg": "/figma-land/static/media/facebook-filled.b3f0e38b972df72b5b873e91861dc31d.svg",
+    "static/media/ic_baseline-phone-android.svg": "/figma-land/static/media/ic_baseline-phone-android.29d0d576582034c10fb2f0635d10bc5d.svg",
+    "static/media/menu-button.svg": "/figma-land/static/media/menu-button.b76e7b89fb86aa9204874d97bad0ad23.svg",
+    "main.fb6a3e0e.css.map": "/figma-land/static/css/main.fb6a3e0e.css.map",
+    "main.e4e4a478.js.map": "/figma-land/static/js/main.e4e4a478.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbad280b.css",
-    "static/js/main.d808ecb5.js"
+    "static/css/main.fb6a3e0e.css",
+    "static/js/main.e4e4a478.js"
   ]
 }
